@@ -1,0 +1,143 @@
+@charset "utf-8";
+/* CSS Document */
+/*start main rulez*/
+body{
+	background-color: #f4f4f4;
+	font-size: 16px;
+	direction: rtl; 
+}
+
+.msg-msg {
+	
+	text-align: center;
+    font-size: 35px; 
+	margin-top: 40px; 
+}
+.asterisk{
+	font-size: 30px;
+	position: absolute;
+	left: 30px;
+	top: 8px;
+	color: #d20707;
+}
+/*end main rulez*/
+/*start login form*/
+.login{
+	width: 300px;
+	margin: 100px auto;
+}
+.login h4{
+	color: #888;
+}
+.login input{
+	margin-bottom: 10px;
+}
+.login .form-control{
+	background-color: #eaeaea;
+}
+.login .btn{
+	background-color: #008dde;
+}
+/*end login form*/
+/*start bootstrap edits*/
+.navbar{
+	border-radius: 0;
+	margin-bottom: 0;
+}
+.navbar-brand{
+	font-size: 1em; /* nfsa size al page fa al body */ 
+}
+.nav > li > a,
+.navbar-brand{
+	padding: 15px 12px;
+}
+
+.navbar-brand {
+	
+	margin-left: 2px !important; 
+}
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:hover,
+.navbar-inverse .navbar-nav > .open > a:focus,
+.dropdown-menu{
+	background-color: #3498db;
+}
+.dropdown-menu{
+	min-width: 180px;
+	padding: 0;
+	font-size: 1em;
+	border: none;
+	border-radius: 0;
+}
+.dropdown-menu > li > a{
+	color: #fff;
+	padding: 10px 15px;
+}
+.dropdown-menu >li> a:focus,
+.dropdown-menu >li> a:hover{
+	color: #fff;
+	background-color: #8e44ad;
+}
+.form-control{
+	position: relative;
+}
+/*end bootstrap edits*/
+/*start member page*/
+h1{
+	font-size: 55px;
+	margin: 40px 0;
+	font-weight: bold;
+	color: #666;
+}
+.show-pass{
+	position: absolute;
+	top: 6px;
+	left: -30px;
+	
+}
+.main-table{
+	-webkit-box-shadow:0 3px 10px #ccc;
+	-moz-box-shadow:0 3px 10px #ccc;
+	box-shadow:0 3px 10px #ccc;
+}
+.main-table td{
+	background-color: #fff;
+	vertical-align: middle !important;
+}
+.main-table tr:first-child td{
+	background-color: #333;
+	color: #fff;
+}
+.main-table .btn{
+	padding: 3px 10px;
+}
+/*end member page*/
+
+
+/* start dashboard */ 
+
+
+.welcome {
+	display: block; 
+    text-align: center; 
+    font-family: 'El Messiri', sans-serif;
+    font-weight: bold; 
+    margin-top: 200px;
+    padding: 8px;  
+    font-size: 120px;  
+	
+}
+
+
+/* end dashboard */
+
+
+/* start ads */ 
+
+.msg-ads {
+	
+	margin-top: 50px; 
+}
+
+
+/* end ads */ 
